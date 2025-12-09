@@ -14,7 +14,8 @@ setup(name='tap-gcs-csv',
           'voluptuous==0.10.5',
           'google-cloud-storage>=1.42.0',
           'xlrd==1.0.0',
-          'inflection>=0.5.1'
+          'inflection>=0.5.1',
+          'importlib-metadata>=5.0.0'
       ],
       entry_points='''
           [console_scripts]
