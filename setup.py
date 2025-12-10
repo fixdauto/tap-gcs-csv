@@ -11,7 +11,7 @@ setup(name='tap-gcs-csv',
       py_modules=['tap_gcs_csv'],
       install_requires=[
           'singer-python>=5.12.1',
-          'voluptuous==0.10.5',
+          'voluptuous>=0.13.0',
           'google-cloud-storage>=1.42.0',
           'xlrd==1.0.0',
           'inflection>=0.5.1',
